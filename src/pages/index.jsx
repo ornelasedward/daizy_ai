@@ -11,6 +11,7 @@ import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import Newsletter from '@/components/Newsletter'
 import { Clients } from '@/components/Clients'
+import { CallToAction1 } from '@/components/CallToAction1'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <main>
         <Hero />
         <Clients />
+        <CallToAction1 />
         <PrimaryFeatures />
         <SecondaryFeatures />
         <CallToAction />
