@@ -79,16 +79,8 @@ export function Faqs() {
     <section
       id="faq"
       aria-labelledby="faq-title"
-      className="relative overflow-hidden bg-slate-50 pt-20 sm:pt-32"
+      className="relative overflow-hidden bg-slate-50 pt-20"
     >
-      <Image
-        className="absolute top-0 left-1/2 max-w-none translate-x-[-30%] -translate-y-1/4"
-        src={backgroundImage}
-        alt=""
-        width={1558}
-        height={946}
-        unoptimized
-      />
       <Container className="relative">
         <div className="bg-white">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:px-8 lg:pt-40">
