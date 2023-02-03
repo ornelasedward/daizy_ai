@@ -59,16 +59,15 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-[#F4F4F5] pt-20 pb-28 sm:py-32"
+      className="relative overflow-hidden bg-[#ffffff] pt-20 pb-28 sm:py-32"
     >
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-[#151515] sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            How it works!
           </h2>
           <p className="mt-6 text-lg tracking-tight text-[#151515]">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            It's as easy as one, two, three :)
           </p>
         </div>
         <Tab.Group
