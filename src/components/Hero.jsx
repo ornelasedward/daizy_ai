@@ -23,7 +23,7 @@ export function Hero() {
         </span>
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-[#E5E5E5]">
-        Say goodbye to the hassle of manual post creation. Daisy generates
+        Say goodbye to the hassle of manual post creation. Daizy generates
         high-quality, tailored posts for all your social media platforms, saving
         you time and effort while increasing engagement and reach.
       </p>

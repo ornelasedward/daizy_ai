@@ -20,7 +20,7 @@ export function CallToAction1() {
             create engaging social media copy for any platform.
           </h2>
           <p className="mx-auto mt-6 max-w-[740px] text-lg tracking-tight text-black">
-            Using cutting-edge AI technology, Daisy generates high-quality,
+            Using cutting-edge AI technology, Daizy generates high-quality,
             tailored posts for all of your social media platforms, saving you
             time and effort while increasing engagement and reach.
           </p>
