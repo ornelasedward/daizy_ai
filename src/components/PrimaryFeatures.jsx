@@ -14,25 +14,25 @@ const features = [
   {
     title: 'Facebook/Instagram',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      'Our AI-powered social media platform can create and schedule posts for Facebook and Instagram, providing a consistent and engaging presence for your brand as well as generating visually appealing posts that align with your brands image and aesthetic, increasing your brands online presence and reach.',
     image: screenshotPayroll,
   },
   {
     title: 'LinkedIn',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "Our platform gives you the ability to post professional and engaging content on LinkedIn, connecting with your target audience and building your brand's presence.",
     image: screenshotExpenses,
   },
   {
     title: 'Twitter',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      'Your brand can also have a strong presence on Twitter, where our AI algorithms create short, impactful tweets that are designed to drive traffic and engagement.',
     image: screenshotVatReturns,
   },
   {
-    title: 'Website',
+    title: 'Website (Shopify)',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'Integration with Shopify allows DaizyAI to create and publish product descriptions, blog posts, and other content on your website, driving traffic and increasing conversions.',
     image: screenshotReporting,
   },
 ]
