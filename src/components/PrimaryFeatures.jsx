@@ -78,7 +78,7 @@ export function PrimaryFeatures() {
                         'group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6',
                         selectedIndex === featureIndex
                           ? 'bg-grey lg:bg-[#0CC47F] lg:ring-1 lg:ring-inset lg:ring-black'
-                          : 'hover:bg-grey lg:hover:bg-grey border-2 border-[#C6C9CD]'
+                          : 'hover:bg-grey lg:hover:bg-grey shadow-black/22 lg:shadow-xl'
                       )}
                     >
                       <h3>
