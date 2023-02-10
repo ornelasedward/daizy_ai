@@ -74,7 +74,7 @@ export function Howitworks() {
                 aria-hidden="true"
               />
               <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-                <Image
+                <img
                   src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
                   alt="Product screenshot"
                   width={2432}
