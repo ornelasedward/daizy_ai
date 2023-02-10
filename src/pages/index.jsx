@@ -14,6 +14,7 @@ import { Clients } from '@/components/Clients'
 import { CallToAction1 } from '@/components/CallToAction1'
 import { Howitworks } from '@/components/Howitworks'
 import { Who } from '@/components/Who'
+import { Howitworks2 } from '@/components/Howitworks2'
 
 export default function Home() {
   return (
@@ -32,6 +33,8 @@ export default function Home() {
         <CallToAction1 />
         <Howitworks />
         <Who />
+        <Howitworks2 />
+        <PrimaryFeatures />
         <CallToAction />
         <Faqs />
         <Newsletter />

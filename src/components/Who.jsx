@@ -54,7 +54,7 @@ const actions = [
     iconForeground: 'text-black',
     iconBackground: 'bg-[#0CC47F]',
     description:
-      'Content creators, bloggers, and influencers Create more with less effort by using Daisy AI to generate high-quality, tailored posts for all your social media platforms',
+      'Content creators, bloggers, and influencers Create more with less effort by using Daizy AI to generate high-quality, tailored posts for all your social media platforms',
   },
   {
     title: 'Simplicity',

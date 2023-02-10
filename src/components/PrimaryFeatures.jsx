@@ -12,25 +12,25 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Facebook/Instagram',
     description:
       "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'LinkedIn',
     description:
       "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Twitter',
     description:
       "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Website',
     description:
       'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
     image: screenshotReporting,
@@ -59,17 +59,9 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-[#ffffff] pt-20 pb-28 sm:py-32"
+      className="bg-blue relative overflow-hidden bg-white pb-28"
     >
       <Container className="relative">
-        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display text-3xl tracking-tight text-[#151515] sm:text-4xl md:text-5xl">
-            How it works!
-          </h2>
-          <p className="mt-6 text-lg tracking-tight text-[#151515]">
-            It's as easy as one, two, three :)
-          </p>
-        </div>
         <Tab.Group
           as="div"
           className="mt-16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
@@ -85,8 +77,8 @@ export function PrimaryFeatures() {
                       className={clsx(
                         'group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6',
                         selectedIndex === featureIndex
-                          ? 'bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10'
-                          : 'hover:bg-white/10 lg:hover:bg-white/5'
+                          ? 'bg-grey lg:bg-[#0CC47F] lg:ring-1 lg:ring-inset lg:ring-black'
+                          : 'hover:bg-grey lg:hover:bg-grey border-2 border-[#C6C9CD]'
                       )}
                     >
                       <h3>
@@ -95,7 +87,7 @@ export function PrimaryFeatures() {
                             'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
                             selectedIndex === featureIndex
                               ? 'text-[#0CC47F] lg:text-[#151515]'
-                              : 'text-[#151515] hover:text-[#DBDBDB] lg:text-white'
+                              : 'text-[#151515] hover:text-black lg:text-black'
                           )}
                         >
                           <span className="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl" />
@@ -107,7 +99,7 @@ export function PrimaryFeatures() {
                           'mt-2 hidden text-sm lg:block',
                           selectedIndex === featureIndex
                             ? 'text-[#151515]'
-                            : 'text-[#DBDBDB] group-hover:text-[#0CC47F]'
+                            : 'text-[#C6C9CD] group-hover:text-[#0CC47F]'
                         )}
                       >
                         {feature.description}
@@ -120,12 +112,12 @@ export function PrimaryFeatures() {
                 {features.map((feature) => (
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative sm:px-6 lg:hidden">
-                      <div className="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
-                      <p className="relative mx-auto max-w-2xl text-base text-white sm:text-center">
+                      <div className="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] ring-1 ring-black sm:inset-x-0 sm:rounded-t-xl" />
+                      <p className="relative mx-auto max-w-2xl text-base text-black sm:text-center">
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="bg-blue mt-10 w-[45rem] overflow-hidden rounded-xl border-2 border-black shadow-xl shadow-[#0CC47F]/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <Image
                         className="w-full"
                         src={feature.image}
