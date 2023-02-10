@@ -16,13 +16,13 @@ export function Hero() {
       <div className="absolute top-0 -right-4 hidden h-72 w-72 animate-blob rounded-full bg-[#F1CB00] opacity-40  blur-3xl filter lg:block"></div>
       <div className="animation-delay-2000 absolute -bottom-8 right-20 h-72 w-72 animate-blob rounded-full bg-[#0CC47F] opacity-40 blur-3xl filter"></div>
       <div className="animation-delay-4000 absolute left-20 h-72 w-72 animate-blob rounded-full bg-[#F1CB00] opacity-20 blur-3xl  filter lg:opacity-30 "></div>
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-6xl">
+      <h1 className="mx-auto max-w-4xl px-[1rem] font-display text-3xl font-medium tracking-tight text-white sm:text-6xl lg:text-5xl">
         Transform your social media strategy with the power of{' '}
-        <span className="bg-gradient-to-r from-[#0CC47F] to-[#F1CB00] bg-clip-text text-7xl font-extrabold text-transparent">
+        <span className="bg-gradient-to-r from-[#0CC47F] to-[#F1CB00] bg-clip-text font-extrabold text-transparent lg:text-7xl">
           AI
         </span>
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-[#E5E5E5]">
+      <p className="mx-auto mt-6 max-w-2xl px-[1rem] text-lg tracking-tight text-[#E5E5E5]">
         Say goodbye to the hassle of manual post creation. Daizy generates
         high-quality, tailored posts for all your social media platforms, saving
         you time and effort while increasing engagement and reach.

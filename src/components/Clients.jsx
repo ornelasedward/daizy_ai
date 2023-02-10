@@ -18,7 +18,7 @@ export function Clients() {
           </span>
         </div>
         <div className="mx-auto justify-center text-center xl:pl-16">
-          <div className="mx-auto grid max-w-[600px] grid-cols-2 justify-center text-2xl font-semibold sm:gap-16 sm:text-3xl lg:max-w-[1280px] lg:grid-cols-4 lg:gap-4">
+          <div className="mx-auto grid max-w-[600px] justify-center text-2xl font-semibold sm:grid-cols-2 sm:gap-16 sm:text-3xl lg:max-w-[1280px] lg:grid-cols-4 lg:gap-4">
             <div className="m-auto flex justify-center gap-2 rounded-xl p-8 shadow-xl sm:min-w-[258px]">
               <BsFacebook className="mt-1" />
               <h1>Facebook</h1>
