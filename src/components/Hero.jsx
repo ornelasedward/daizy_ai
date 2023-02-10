@@ -41,7 +41,7 @@ export function Hero() {
       </div>
       <div className="mt-20 lg:mt-36">
         <div className="m-auto flex justify-center">
-          <Image src={dashboard} />
+          <Image src={dashboard} alt="Daizy AI Dashboard" />
         </div>
       </div>
     </div>

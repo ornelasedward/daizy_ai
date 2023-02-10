@@ -19,11 +19,11 @@ export function Howitworks2() {
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Our platform utilizes the natural language generation
                 capabilities of an advanced AI-based technology, to create
-                content that's consistent with your brand's voice, style, and
-                message. We also format the post based on which social media
-                platform you choose, making it easy to post on multiple
-                platforms at once. It's an all-in-one solution for your social
-                media management needs.
+                content that&apos;s consistent with your brand&apos;s voice,
+                style, and message. We also format the post based on which
+                social media platform you choose, making it easy to post on
+                multiple platforms at once. It&apos;s an all-in-one solution for
+                your social media management needs.
               </p>
             </div>
           </div>

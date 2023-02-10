@@ -4,6 +4,8 @@ import {
   ServerIcon,
 } from '@heroicons/react/20/solid'
 
+import Image from 'next/image'
+
 const features = [
   {
     name: 'Create Engaging Content',
@@ -38,7 +40,7 @@ export function Howitworks() {
           <div className="px-6 lg:px-0 lg:pt-4 lg:pr-4">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
               <h2 className="text-lg font-semibold leading-8 tracking-tight text-[#0CC47F]">
-                Daizy works, so you don't have to
+                Daizy works, so you don&apos;t have to
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 What does Daizy AI do?
@@ -72,7 +74,7 @@ export function Howitworks() {
                 aria-hidden="true"
               />
               <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-                <img
+                <Image
                   src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
                   alt="Product screenshot"
                   width={2432}
