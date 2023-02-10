@@ -18,14 +18,14 @@ export default function Register() {
             <Logo className="h-10 w-auto" />
           </Link>
           <div className="mt-20">
-            <h2 className="text-lg font-semibold text-gray-900">
+            <h2 className="text-lg font-semibold text-white">
               Get started for free
             </h2>
-            <p className="mt-2 text-sm text-gray-700">
+            <p className="mt-2 text-sm text-white">
               Already registered?{' '}
               <Link
                 href="/login"
-                className="font-medium text-blue-600 hover:underline"
+                className="font-medium text-[#0CC47F] hover:underline"
               >
                 Sign in
               </Link>{' '}
@@ -77,10 +77,11 @@ export default function Register() {
             id="referral_source"
             name="referral_source"
           >
-            <option>AltaVista search</option>
-            <option>Super Bowl commercial</option>
-            <option>Our route 34 city bus ad</option>
-            <option>The “Never Use This” podcast</option>
+            <option>Twitter</option>
+            <option>Youtube</option>
+            <option>Advertisement</option>
+            <option>referral</option>
+            <option>other</option>
           </SelectField>
           <div className="col-span-full">
             <Button
